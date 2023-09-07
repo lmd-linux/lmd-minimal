@@ -1,0 +1,12 @@
+Source: lmd-minimal
+Maintainer: lmd Linux <lmd.linux@gmail.com>
+Section: misc
+Priority: important
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: lmd-minimal
+Architecture: all
+Depends: apt-transport-https, base-files, ca-certificates, fontconfig-config, lsb-release, systemd-timesyncd
+Description: Minimal set of packages for lmd Linux
+ Packages and configuration for a minimal lmd Linux installation
